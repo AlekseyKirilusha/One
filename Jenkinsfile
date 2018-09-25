@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
-        echo 'work'
+        sh 'npm --version'
       }
     }
   }
